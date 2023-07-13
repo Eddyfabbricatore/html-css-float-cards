@@ -39,6 +39,10 @@ header h1{
 }
 
 /* main */
+.p-center{
+  text-align: center;
+}
+
 .box{
   margin-top: 20px;
 }
@@ -48,7 +52,7 @@ header h1{
   height: 105px;
   background-color: #0F0E17;
   border: 3px solid rgb(220, 220, 220);
-  margin: 20px 40px 40px 0px;
+  margin: 20px 50px 40px 0px;
 }
 
 .box-image img{
