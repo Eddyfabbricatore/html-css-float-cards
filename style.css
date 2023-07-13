@@ -3,3 +3,18 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: 'Fredoka', sans-serif;
+}
+
+.container{
+  width: 80%;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+header h1{
+  text-align: center;
+  color: #E43170;
+}
