@@ -8,13 +8,58 @@ body{
   font-family: 'Fredoka', sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .container{
   width: 80%;
   max-width: 1200px;
   margin: 40px auto;
 }
 
+/* header titolo */
 header h1{
   text-align: center;
   color: #E43170;
+}
+
+/* main */
+.box-image{
+  width: 300px;
+  height: 105px;
+  background-color: #0F0E17;
+  border: 3px ridge #d8d8d7;
+  margin: 40px 0;
+}
+
+.box-image img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.box-image p{
+  color: white;
+  padding-top: 10px;
+}
+
+p.email-contact{
+  font-size: 12px;
+  color: #5fbfd7;
 }
